@@ -1,6 +1,7 @@
 class MusicPlayer(object):
 
     def __new__(cls, *args, **kwargs):
+        # *表示元组 **表示字典
 
         # 1. 创建对象时，new方法会被自动调用
         print("创建对象，分配空间")
